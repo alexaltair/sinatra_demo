@@ -1,0 +1,7 @@
+<h2>Top ten results for '<%= @query %>':</h2>
+
+<ol>
+  <% @movies.each do |movie| %>
+    <li><a href="/movie/<%= URI.escape(movie['imdbID']) %>"><%= movie["Title"] %></a></li>
+  <% end %>
+</ol>
