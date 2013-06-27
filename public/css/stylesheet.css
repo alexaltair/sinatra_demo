@@ -1,0 +1,45 @@
+.container {
+  background-color: #01a9db;
+  margin: 40px auto 0 auto;
+  width: 600px;
+  padding: 30px;
+  font-family: 'Titillium Web', sans-serif;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+
+  -webkit-box-shadow: 0px 0px 4px 4px #01a9db; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+  box-shadow: 0px 0px 4px 4px #01a9db; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+
+}
+
+.container a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+}
+
+h2 {
+  font-family: 'Yeseva One', cursive;
+}
+
+img {
+  border: 2px solid #000000;
+}

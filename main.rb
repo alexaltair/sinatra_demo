@@ -28,5 +28,7 @@ end
 get '/movie/:imdbID' do
   @link = params[:imdbID]
   @movie = get_movie(@link)
+  @tomato_movie = get_movie("#{@link}&tomatoes=true")
+  @tomato = @tomato_movie["tomatoRating"]
   erb :movie
 end
